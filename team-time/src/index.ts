@@ -6,8 +6,9 @@ const command = async () => {
   const mexico = now.toLocaleString(undefined, { timeZone: "America/Mexico_City", timeStyle: "short" });
   const venezuela = now.toLocaleString(undefined, { timeZone: "America/Caracas", timeStyle: "short" });
   const newYork = now.toLocaleString(undefined, { timeZone: "America/New_York", timeStyle: "short" });
+  const buenosAires = now.toLocaleString(undefined, { timeZone: "America/Argentina/Buenos_Aires", timeStyle: "short" });
 
-  const subtitle = `🇲🇽 ${mexico}    🇺🇸 ${newYork}  🇻🇪 ${venezuela}`;
+  const subtitle = `🇲🇽 ${mexico}    🇺🇸 ${newYork}  🇻🇪 ${venezuela}  🇦🇷 ${buenosAires}`;
   await updateCommandMetadata({ subtitle });
 
   if (environment.launchType === LaunchType.UserInitiated) {
