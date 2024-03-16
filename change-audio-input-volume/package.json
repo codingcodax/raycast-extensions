@@ -49,6 +49,12 @@
       "title": "Set Volume to 75%",
       "description": "Set the volume of your current audio input (microphone) to 75%.",
       "mode": "no-view"
+    },
+    {
+      "name": "full-volume",
+      "title": "Set Volume to 100%",
+      "description": "Set the volume of your current audio input (microphone) to 100%.",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
