@@ -17,6 +17,13 @@
       "subtitle": "Mute/unmute microphone",
       "description": "Mute or unmute your current audio input (microphone).",
       "mode": "no-view"
+    },
+    {
+      "name": "turn-volume-up",
+      "title": "Turn Volume Up",
+      "subtitle": "Increase Audio Input Volume",
+      "description": "Increase the volume of your current audio input (microphone).",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
