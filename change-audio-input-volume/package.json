@@ -24,6 +24,13 @@
       "subtitle": "Increase Audio Input Volume",
       "description": "Increase the volume of your current audio input (microphone).",
       "mode": "no-view"
+    },
+    {
+      "name": "turn-volume-down",
+      "title": "Turn Volume Down",
+      "subtitle": "Decrease Audio Input Volume",
+      "description": "Decrease the volume of your current audio input (microphone).",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
