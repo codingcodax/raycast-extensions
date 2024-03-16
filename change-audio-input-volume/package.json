@@ -31,6 +31,13 @@
       "subtitle": "Decrease Audio Input Volume",
       "description": "Decrease the volume of your current audio input (microphone).",
       "mode": "no-view"
+    },
+    {
+      "name": "toggle-mute",
+      "title": "Toggle Mute",
+      "subtitle": "Mute/Unmute Audio Input",
+      "description": "Mute or unmute your current audio input (microphone).",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
