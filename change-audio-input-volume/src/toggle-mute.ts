@@ -1,4 +1,4 @@
-import { LocalStorage } from "@raycast/api";
+import { LocalStorage, closeMainWindow } from "@raycast/api";
 import { runAppleScript } from "run-applescript";
 
 export default async function toggleMute() {
@@ -17,4 +17,5 @@ export default async function toggleMute() {
     await runAppleScript(`set volume input volume ${previousVolume || "100"}`);
     await LocalStorage.removeItem("audioInputVolume");
   }
+  await closeMainWindow({ clearRootSearch: true });
 }
