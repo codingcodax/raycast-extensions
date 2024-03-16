@@ -37,6 +37,12 @@
       "title": "Set Volume to 25%",
       "description": "Set the volume of your current audio input (microphone) to 25%.",
       "mode": "no-view"
+    },
+    {
+      "name": "half-volume",
+      "title": "Set Volume to 50%",
+      "description": "Set the volume of your current audio input (microphone) to 50%.",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
