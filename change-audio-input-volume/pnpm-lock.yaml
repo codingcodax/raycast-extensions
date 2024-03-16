@@ -8,6 +8,9 @@ dependencies:
   '@raycast/api':
     specifier: ^1.69.0
     version: 1.69.3(@types/node@20.8.10)(@types/react@18.2.27)
+  run-applescript:
+    specifier: ^7.0.0
+    version: 7.0.0
 
 devDependencies:
   '@raycast/eslint-config':
@@ -1032,6 +1035,11 @@ packages:
     dependencies:
       glob: 7.2.3
     dev: true
+
+  /run-applescript@7.0.0:
+    resolution: {integrity: sha512-9by4Ij99JUr/MCFBUkDKLWK3G9HVXmabKz9U5MlIAIuvuzkiOicRYs8XJLxX+xahD+mLiiCYDqF9dKAgtzKP1A==}
+    engines: {node: '>=18'}
+    dev: false
 
   /run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
