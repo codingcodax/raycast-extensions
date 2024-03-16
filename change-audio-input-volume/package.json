@@ -31,6 +31,12 @@
       "subtitle": "Mute/Unmute Audio Input",
       "description": "Mute or unmute your current audio input (microphone).",
       "mode": "no-view"
+    },
+    {
+      "name": "quarter-volume",
+      "title": "Set Volume to 25%",
+      "description": "Set the volume of your current audio input (microphone) to 25%.",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
